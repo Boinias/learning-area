@@ -39,6 +39,9 @@
       return true;
     }
 
+    for (let a = i; a >= 2; a--) {
+      if (isPrime(a) == false) {continue;}
+      else {para.textContent += `${a},`}
 
     // Add your code here
 
